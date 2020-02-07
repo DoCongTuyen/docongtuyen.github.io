@@ -18,5 +18,4 @@ public class IssueDto {
     private String reason;
     private String description;
     private ProjectDto project;
-    private StatusDto status;
 }

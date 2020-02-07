@@ -1,11 +1,14 @@
 package com.itsol.projectservice.domain;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import lombok.*;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.io.Serializable;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 
 @Entity
@@ -65,13 +68,17 @@ public class Employee implements Serializable {
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "TEAM_ID")
-    private Team team;
+    private Team teamId;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "DEPARTMENT_ID")
-    private Department department;
+    private Department departmentId;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "POSITION_ID")
-    private Position position;
+    private Position positionId;
+
+    @JsonIgnore
+    @OneToMany(mappedBy = "employee", fetch = FetchType.LAZY, cascade = CascadeType.ALL)
+    private List<Eproject> eprojectList = new ArrayList<>();
 }

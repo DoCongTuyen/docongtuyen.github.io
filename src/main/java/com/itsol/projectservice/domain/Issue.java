@@ -44,8 +44,5 @@ public class Issue implements Serializable {
     @JoinColumn(name = "PROJECT_ID")
     private Project project;
 
-    @ManyToOne(fetch = FetchType.LAZY)
-    @JoinColumn(name = "STATUS_ID")
-    private Status status;
 
 }

@@ -1,6 +1,10 @@
 package com.itsol.projectservice.dto;
 
+
 import lombok.*;
+
+import java.util.Date;
+
 
 @Getter
 @Setter
@@ -8,7 +12,13 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 public class ProjectDto {
-    private long id;
+    private Integer id;
     private String name;
-    private StatusDto status;
+    private Integer status;
+    private Date startDate;
+    private Date endDate;
+    private Integer[] ids;
+
+
+
 }

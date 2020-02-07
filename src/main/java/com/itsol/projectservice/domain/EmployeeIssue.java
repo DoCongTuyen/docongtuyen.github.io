@@ -21,8 +21,5 @@ public class EmployeeIssue implements Serializable {
     @Column(name = "NOTE")
     private String note;
 
-    @ManyToOne(fetch = FetchType.EAGER)
-    @JoinColumn(name = "STATUS_ID")
-    private Status status;
 
 }

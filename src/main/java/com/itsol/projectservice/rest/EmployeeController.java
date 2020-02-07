@@ -3,6 +3,7 @@ package com.itsol.projectservice.rest;
 
 import com.itsol.projectservice.dto.EmployeeDto;
 import com.itsol.projectservice.service.Impl.EmployeeServiceImpl;
+import lombok.var;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +41,17 @@ Logger logger = LoggerFactory.getLogger(getClass());
             return new ResponseEntity<>(HttpStatus.INTERNAL_SERVER_ERROR);
         }
     }
+    @DeleteMapping("/delete/{id}")
+    public ResponseEntity<Void> deleteById(@PathVariable Long id) {
+        try{
+            employeeService.deleteById(id);
+            return new ResponseEntity<Void>(HttpStatus.OK);
+        }
+        catch (Exception e){
+            e.getMessage();
+            return new ResponseEntity<Void>(HttpStatus.INTERNAL_SERVER_ERROR);
 
+        }
+
+    }
 }
-
