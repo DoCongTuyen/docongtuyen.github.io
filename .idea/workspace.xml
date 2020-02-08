@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9086fe4b-3fe5-453c-9ac0-c01bdd1837d9" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SYSTEM1: schema" type="3abd1b6a:OraImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="SYSTEM1: schema" type="3abd1b6a:OraImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1XPIYS8GBmG0221s5oCfvTwF6SV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="oracle" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mockup-angular-v2.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.itsol.backend.security" />
+      <recent name="com.itsol.backend.config" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\admin\Desktop\backend\src\main\java\com\itsol\backend\security" />
+      <recent name="C:\Users\admin\Desktop\backend\src\main\resources" />
+      <recent name="C:\Users\admin\Desktop\backend\src\main\java\com\itsol\backend" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="BackendApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="backend" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.itsol.backend.BackendApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              </path>
+              <path>
+                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+                <item name="root:@localhost" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@27edf9b" type="9fbbdea:ServiceModel$ServiceNode" />
+              </path>
+            </expand>
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9086fe4b-3fe5-453c-9ac0-c01bdd1837d9" name="Default Changelist" comment="" />
+      <created>1580941349631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1580941349631</updated>
+      <workItem from="1580941355973" duration="3070000" />
+      <workItem from="1580970608546" duration="10516000" />
+      <workItem from="1581001168255" duration="11304000" />
+      <workItem from="1581042089238" duration="8180000" />
+      <workItem from="1581176272702" duration="529000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="361" y="72" key="#Assign_Data_Sources" timestamp="1580942418357">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#Assign_Data_Sources/0.0.1536.824@0.0.1536.824" timestamp="1580942418357" />
+    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580942405440">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="72" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1580942405440" />
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser" timestamp="1581009864568">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="574" y="123" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1581009864568" />
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1580981877310">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1580981877310" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1581042184786">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1581042184786" />
+    <state width="1493" height="108" key="GridCell.Tab.0.bottom" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.0.center" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.0.left" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.0.right" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.1.bottom" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.1.center" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.1.left" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="108" key="GridCell.Tab.1.right" timestamp="1581051655546">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="108" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1581051655546" />
+    <state width="1493" height="118" key="GridCell.Tab.2.bottom" timestamp="1581018290129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="118" key="GridCell.Tab.2.bottom/0.0.1536.824@0.0.1536.824" timestamp="1581018290129" />
+    <state width="1493" height="118" key="GridCell.Tab.2.center" timestamp="1581018290129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="118" key="GridCell.Tab.2.center/0.0.1536.824@0.0.1536.824" timestamp="1581018290129" />
+    <state width="1493" height="118" key="GridCell.Tab.2.left" timestamp="1581018290129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="118" key="GridCell.Tab.2.left/0.0.1536.824@0.0.1536.824" timestamp="1581018290129" />
+    <state width="1493" height="118" key="GridCell.Tab.2.right" timestamp="1581018290129">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="118" key="GridCell.Tab.2.right/0.0.1536.824@0.0.1536.824" timestamp="1581018290129" />
+    <state x="249" y="0" key="SettingsEditor" timestamp="1580942480093">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1580942480093" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1581176291223">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1581176291223" />
+    <state x="475" y="42" key="refactoring.ChangeSignatureDialog" timestamp="1580942693738">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="475" y="42" key="refactoring.ChangeSignatureDialog/0.0.1536.824@0.0.1536.824" timestamp="1580942693738" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1580979603724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1580979603724" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/itsol/backend/utils/CopyUtil.java</url>
+          <line>8</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/itsol/backend/service/Impl/EmployeeServiceImpl.java</url>
+          <line>75</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/itsol/backend/service/Impl/EmployeeServiceImpl.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
