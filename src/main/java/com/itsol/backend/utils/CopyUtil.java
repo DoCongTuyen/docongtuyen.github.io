@@ -7,7 +7,7 @@ import java.lang.reflect.Method;
 public class CopyUtil {
     public static <T> void copyOldToNewModel(T oldModel, T newModel) {
         boolean checkNull = checkModelAllFieldIsNull(newModel);
-        if (!checkNull) {
+        if (checkNull) {
             return;
         }
         Field[] oldFields = oldModel.getClass().getDeclaredFields();
@@ -21,6 +21,7 @@ public class CopyUtil {
                 Method newMethod = newModel.getClass().getMethod(methodGet);
 
                 if (newMethod.invoke(newModel) == null && oldMethod.invoke(oldModel) != null) {
+                    newFields[i].setAccessible(true);
                     newFields[i].set(newModel, oldMethod.invoke(oldModel));
                 }
             }

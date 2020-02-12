@@ -75,7 +75,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     public EmployeeDto update(EmployeeDto employeeDto) {
 
         Employee oldEmployee = employeeRepository.findById(employeeDto.getId()).get();
-//        employeeDto.setPassword(encoder.encode(employeeDto.getPassword()));
         Employee employee = modelMapper.map(employeeDto,Employee.class);
         CopyUtil.copyOldToNewModel(oldEmployee,employee);
         employee.setPassword(encoder.encode(employee.getPassword()));
