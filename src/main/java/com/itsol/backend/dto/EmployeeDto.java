@@ -26,7 +26,7 @@ public class EmployeeDto {
     private String address;
     private String university;
     private Date birthday;
-    private Boolean activated;
+    private int activated;
     private String imageUrl;
     private Date lastAccess;
     private Date createdDate;

@@ -5,6 +5,8 @@ import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.*;
 import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 
 @Entity
@@ -61,7 +63,7 @@ public class Employee{
     private Date birthday;
 
     @Column(name = "IS_ACTIVED")
-    private Boolean activated = false;
+    private int activated ;
 
     @Column(name = "IMAGE_URL", length = 256)
     private String imageUrl;
@@ -85,4 +87,9 @@ public class Employee{
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "POSITION_ID")
     private Position position;
+    @ManyToMany
+    @JoinTable(name = "EMPLOYEE_ROLE",
+            joinColumns = @JoinColumn(name = "EMPLOYEE_ID",referencedColumnName = "id"),
+            inverseJoinColumns = @JoinColumn(name = "ROLE_ID",referencedColumnName = "id"))
+    private Set<Role> roles = new HashSet<>();
 }

@@ -1,6 +1,7 @@
 package com.itsol.backend.service.Impl;
 
 import com.itsol.backend.domain.Employee;
+import com.itsol.backend.dto.AuthDto;
 import com.itsol.backend.dto.EmployeeDto;
 import com.itsol.backend.repository.EmployeeRepository;
 import com.itsol.backend.service.EmployeeService;
@@ -80,8 +81,17 @@ public class EmployeeServiceImpl implements EmployeeService {
         employee.setPassword(encoder.encode(employee.getPassword()));
         employeeRepository.save(employee);
         return modelMapper.map(employee,EmployeeDto.class);
+    }
 
-
+    @Override
+    public EmployeeDto findByUsernameAndPassword(AuthDto authDto) {
+        Optional<Employee> employee= employeeRepository.findByUsernameAndPassword(authDto.getUsername(),authDto.getPassword());
+        if (employee.get().getActivated() ==0 ) {
+            return null;
+        }
+        return employee
+                .map(position ->modelMapper.map(position, EmployeeDto.class))
+                .orElse(null);
     }
 
 

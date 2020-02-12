@@ -1,6 +1,7 @@
 package com.itsol.backend.rest;
 
 
+import com.itsol.backend.dto.AuthDto;
 import com.itsol.backend.dto.EmployeeDto;
 import com.itsol.backend.service.Impl.EmployeeServiceImpl;
 import org.slf4j.Logger;
@@ -49,13 +50,13 @@ public class EmployeeController {
         }
     }
 
-    @GetMapping("/getAll")
+    @GetMapping("/get")
     ResponseEntity<List<EmployeeDto>> getAllEmployee(){
         logger.trace("REST to request get all issue.");
         return new ResponseEntity<>(employeeService.getAllEmployee(), HttpStatus.OK);
     }
 
-    @GetMapping("/getAll/{id}")
+    @GetMapping("/get/{id}")
     public ResponseEntity<EmployeeDto> getEmployee(@PathVariable("id") long id){
         logger.trace("REST to request get employee: {}", id);
         EmployeeDto employeeDto = employeeService.getEmployeeById(id);
@@ -64,6 +65,11 @@ public class EmployeeController {
         } else {
             return new ResponseEntity<>(employeeDto, HttpStatus.OK);
         }
+    }
+    @PostMapping("/login")
+    public ResponseEntity<EmployeeDto> login(@RequestBody AuthDto authDto){
+        EmployeeDto employeeDto = employeeService.findByUsernameAndPassword(authDto);
+        return new ResponseEntity<>(employeeDto,HttpStatus.OK);
     }
 
 
